@@ -1,0 +1,7 @@
+http:
+  routers:
+    cdnnotinstudio-org-main:
+      service: k3s
+      rule: Host(`cdnnotinstudio.org`)
+
+

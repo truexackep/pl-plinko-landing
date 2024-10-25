@@ -1,0 +1,5 @@
+http:
+  routers:
+    mre-trolyy-com:
+      service: k3s
+      rule: Host(`mre.trolyy.com`)
